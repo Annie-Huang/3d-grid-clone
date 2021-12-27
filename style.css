@@ -138,10 +138,19 @@ body {
 }
 
 /* feature grid */
+
+.perspective {
+  /* perspective needs to be put in the direct parent
+     the bigger the value, the further away from it it is.
+  */
+  perspective: 50rem;
+}
 .feature-grid {
   align-self: start;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
+
+  transform: rotateY(-30deg);
 }
 
 .feature-grid > a {
