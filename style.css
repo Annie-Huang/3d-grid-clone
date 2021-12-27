@@ -130,3 +130,14 @@ body {
   display: grid;
   gap: var(--gap, 1rem);
 }
+
+.grid--columns {
+  /* grid-auto-columns: 1fr; creates two equal columns */
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+}
+
+/* feature grid */
+.feature-grid {
+  grid-template-columns: 1fr 1fr;
+}
