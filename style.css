@@ -144,8 +144,15 @@ body {
   grid-template-rows: repeat(6, 1fr);
 }
 
+.feature-grid > a {
+  border-radius: 0.75em;
+  transition: transform 350ms ease-in-out;
+  overflow: hidden;
+}
+
 .feature-grid > a:hover,
 .feature-grid > a:focus-visible {
+  transform: scale(1.1);
   box-shadow: 0 0 2rem hsl(0 0% 100% / 0.8);
 }
 
