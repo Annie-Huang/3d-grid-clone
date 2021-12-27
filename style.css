@@ -147,6 +147,18 @@ body {
   position: relative;
   border: 3px solid hotpink;
 }
+
+.feature-grid-text {
+  /* the shade is from top to bottom, tilted it 90deg so the purple shape is at the right
+     have the black all the way from 0-60% of the width, and then the remaining 40% slowly change it to purple
+   */
+  background: linear-gradient(
+    90deg,
+    hsl(0 0% 0% / 0) 60%,
+    hsl(255 50% 50% / 1)
+  );
+}
+
 .feature-grid {
   position: relative;
   z-index: -1;
