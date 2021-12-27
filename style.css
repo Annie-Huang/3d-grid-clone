@@ -172,7 +172,7 @@ body {
   width: 55rem;
   border: 2px solid red;
 
-  align-self: start;
+  align-self: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 

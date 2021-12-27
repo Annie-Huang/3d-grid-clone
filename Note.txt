@@ -6,3 +6,9 @@ https://github.com/Annie-Huang/3d-grid-clone
 https://www.xfai.com/
 https://piccalil.li/blog/a-modern-css-reset/    Andy Bell
 =======================================================================
+
+You will need to adjust the screen width to see effect.
+but basically,
+for super large screen size: you can see everything
+as screen size becomes smaller, you lost some buttons on the right side of .feature-grid
+as the screen size grow even more smaller, the left side button of .feature-grid will shift underneath the .feature-grid-text
