@@ -149,7 +149,8 @@ body {
 .feature-grid {
   position: relative;
   z-index: -1;
-  right: calc(calc(1000px - 100vw) * -1);
+  /*right: calc(calc(1000px - 100vw) * -1);*/
+  left: min(calc(1000px - 100vw) * -1, 0px);
   width: 55rem;
   border: 2px solid red;
 
