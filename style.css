@@ -144,8 +144,15 @@ body {
      the bigger the value, the further away from it it is.
   */
   perspective: 50rem;
+  border: 3px solid hotpink;
 }
 .feature-grid {
+  position: relative;
+  z-index: -1;
+  right: calc(calc(1000px - 100vw) * -1);
+  width: 55rem;
+  border: 2px solid red;
+
   align-self: start;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
